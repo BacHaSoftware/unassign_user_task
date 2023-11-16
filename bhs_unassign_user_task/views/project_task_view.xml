@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_task_kanban_project_task">
+        <field name="name">project.task.kanban.view.inherit</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='user_ids'][@widget='many2many_avatar_user']" position="attributes">
+                <attribute name="widget">many2many_avatar_user_task</attribute>
+                <attribute name="options">{'show_options':True}</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_task_tree2_project_task">
+        <field name="name">project.task.tree.view.inherit</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_tree2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='user_ids']" position="attributes">
+                <attribute name="widget">many2many_avatar_user_task</attribute>
+                <attribute name="options">{'show_options':True}</attribute>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
