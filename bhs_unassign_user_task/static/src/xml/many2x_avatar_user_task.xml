@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+    <t t-name="UserOptionsPopUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img t-att-src="user_ava" class="rounded-circle" t-att-title="user_email" style="width:88px;height:88px;border-radius:50% !important;"/>
+                </div>
+                <div class="col-md-8">
+                    <h4 t-esc="user_name"/>
+                    <div><b>Task: </b><i t-esc="task_name"/></div>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>
