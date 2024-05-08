@@ -20,7 +20,7 @@
             'bhs_unassign_user_task/static/src/xml/many2x_avatar_user_task.xml',
         ],
     },
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner.gif'],
     'license': "AGPL-3",
     'installable': True,
     'application': True,
