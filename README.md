@@ -44,7 +44,7 @@
 
 <div align="left">
   <a href="https://github.com/BacHaSoftware/unassign_user_task">
-    <img src="/bhs_unassign_user_task/static/description/imgs/img_remove.png" alt="Setting">
+    <img src="/bhs_unassign_user_task/static/description/imgs/screen/img_remove.png" alt="Setting">
   </a>
 </div>
 
