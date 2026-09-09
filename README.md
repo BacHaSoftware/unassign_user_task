@@ -8,7 +8,7 @@
     <img src="/bhs_unassign_user_task/static/description/icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Unassigned user widget</h3>
+  <h3 align="center">Unassigned User Widget</h3>
 
   <p align="center">
     A product of Bac Ha Software allows unassigned user from task when click avatar user easily.

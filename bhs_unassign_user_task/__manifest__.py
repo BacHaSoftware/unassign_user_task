@@ -1,5 +1,5 @@
 {
-    'name': "Unassigned user widget",
+    'name': "Unassigned User Widget",
     'version': '15.0.1.0.0',
     'summary': """Unassigned user widget""",
     'description': """Unassigned user from task when click avatar user""",
